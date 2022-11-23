@@ -2,8 +2,9 @@
   "name": "destinysroad-back",
   "version": "0.0.0",
   "private": true,
+  "main": "./bin/www",
   "scripts": {
-    "start": "nodemon ./bin/www"
+    "start": "node ./bin/www"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
@@ -15,5 +16,7 @@
     "mongoose": "^6.7.0",
     "morgan": "~1.9.1",
     "nodemailer": "^6.8.0"
+  }, "engines": {
+    "node": ">=14"
   }
 }
